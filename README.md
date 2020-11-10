@@ -24,7 +24,7 @@ localhost
 ```
 Maka tampilannya akan seperti berikut jika berhasil.
 
-![GAMBAR](Gambar/gambar1.lpg)
+![GAMBAR](Gambar/gambar1.jpg)
 
 Maka persiapan web server kita sudah siap.
 
