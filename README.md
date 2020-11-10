@@ -24,7 +24,7 @@ localhost
 ```
 Maka tampilannya akan seperti berikut jika berhasil.
 
-![GAMBAR](Gambar/gambar1.png)
+![GAMBAR](Gambar/gambar1.lpg)
 
 Maka persiapan web server kita sudah siap.
 
@@ -55,7 +55,7 @@ php -m | grep -i <nama.ekstensi>
 ```
 Jika benar, maka akan muncul nama ekstensi tersebut seperti berikut.
 
-![GAMBAR](Gambar/gambar2.png)
+![GAMBAR](Gambar/gambar2.jpg)
 
 Namun, jika tidak muncul apa-apa maka ekstensi belum terpasang.
 
@@ -79,7 +79,7 @@ cd /var/www/html/LBE_FP
 ls
 ```
 
-![GAMBAR](Gambar/gambar3.png)
+![GAMBAR](Gambar/gambar3.jpg)
 
 Nantinya akan terlihat sebuah file bernama **spark**, dari situ kita langsung memasukan nama file tersebut kedalam terminal.
 ```
@@ -87,10 +87,10 @@ php spark serve
 ```
 Akhirnya web CodeIgniter kita telah ter-_spark_ dan kita bisa mengakses web CodeIgniter tersebut melalui domain yang kita _spark_.
 
-![GAMBAR](Gambar/gambar4.png)
+![GAMBAR](Gambar/gambar4.jpg)
 
 Lalu akses laman tersebut melalui web browser, jika berhasil maka akan muncul tampilan berikut.
 
-![GAMBAR](Gambar/gambar5.png)
+![GAMBAR](Gambar/gambar5.jpg)
 
 Demikian maka web CodeIgniter telah terdeploy.
