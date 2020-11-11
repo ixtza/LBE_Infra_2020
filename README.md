@@ -1,6 +1,25 @@
 # LBE_Infra_2020
 
-## A. Persiapan CodeIgniter
+Sub-Materi
+- [Abstrak](#a-abstrak)
+- [Persiapan CodeIgniter](#b-persiapan-codeigniter)
+    - [Persiapan Web Server](#persiapan-web-server)
+    - [Persiapan PHP](#persiapan-php)
+- [Mendeploy Web CodeIgniter](#c-mendeploy-web-codeigniter)
+- [Kesimpulan](#d-kesimpulan)
+- [Referensi](#referensi)
+
+## A. Abstrak
+
+### Framework
+
+Framework atau dalam bahasa indonesia dapat diartikan sebagai “kerangka kerja” merupakan kumpulan dari fungsi-fungsi/prosedur-prosedur dan class-class untuk tujuan tertentu yang sudah siap digunakan sehingga bisa lebih mempermudah dan mempercepat pekerjaan seorang programer, tanpa harus membuat fungsi atau class dari awal.(1)
+
+### CodeIgniter
+
+CodeIgniter menjadi sebuah framework PHP dengan model MVC (Model, View, Controller) untuk membangun website dinamis dengan menggunakan PHP yang dapat mempercepat pengembang untuk membuat sebuah aplikasi web. Selain ringan dan cepat, CodeIgniter juga memiliki dokumentasi yang super lengkap disertai dengan contoh implementasi kodenya. Dokumentasi yang lengkap inilah yang menjadi salah satu alasan kuat mengapa banyak orang memilih CodeIgniter sebagai framework pilihannya. Karena kelebihan-kelebihan yang dimiliki oleh CodeIgniter, pembuat PHP Rasmus Lerdorf memuji CodeIgniter di frOSCon (Agustus 2008) dengan mengatakan bahwa dia menyukai CodeIgniter karena “it is faster, lighter and the least like a framework.”(1)
+
+## B. Persiapan CodeIgniter
 
 Ada beberapa hal yang perlu disiapkan sebelum kita bisa mendeploy web CodeIgniter. Hal-hal tersebut bisa kita lihat pada laman **[di sini](https://codeigniter.com/user_guide/intro/requirements.html)**. Berdasarkan laman tersebut ada 3 hal yang harus dipersiapkan sebelum bisa mendeploy web CodeIgniter, yakni:
 -   Web Server
@@ -59,7 +78,7 @@ Jika benar, maka akan muncul nama ekstensi tersebut seperti berikut.
 
 Namun, jika tidak muncul apa-apa maka ekstensi belum terpasang.
 
-## B. Mendeploy Web CodeIgniter
+## C. Mendeploy Web CodeIgniter
 
 Sama seperti sebelumnya, hal yang kita lakukan adalah dengan menginstall CodeIgniter versi terbaru dengan terminal dari [github CodeIgniter](https://github.com/codeigniter4/CodeIgniter4/releases). Pada saat pembuatan ini versi terbarunya berupa 4.0.4.
 ```
@@ -93,4 +112,10 @@ Lalu akses laman tersebut melalui web browser, jika berhasil maka akan muncul ta
 
 ![GAMBAR](Gambar/gambar5.jpg)
 
-Demikian maka web CodeIgniter telah terdeploy.
+## D. Kesimpulan
+
+Untuk mendeploy web CodeIgniter diperlukan beberapa padanan yang mendukung.
+
+### Referensi
+
+- [https://idcloudhost.com/panduan/mengenal-apa-itu-framework-codeigniter/](https://idcloudhost.com/panduan/mengenal-apa-itu-framework-codeigniter/)
